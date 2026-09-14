@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-base-100: #171219;
+  --color-base-200: #231e25;
+  --color-base-300: #2e2930;
+  --color-primary: #FFD046;
+  --color-primary-content: #3a2e20;
+  --color-text: #FEFDFF;
+}
+
+:root {
+  background-color: var(--color-base-100);
+  color: var(--color-text);
+}
+
+.btn-primary {
+  padding: 5px 10px 5px;
+  background-color: var(--color-primary);
+  color: var(--color-primary-content);
+  border-radius: 10px;
+  display: flex;
+  place-items: center;
+  gap: 2px;
+}
+
+.btn-ghost {
+  padding: 5px 10px 5px;
+  display: flex;
+  place-items: center;
+  gap: 2px;
+}
